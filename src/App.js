@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Route,Switch,Redirect} from 'react-router-dom';
+import RestoList from './RestoList';
+import CreateResto from './CreateResto';
+import Navbar from './Navbar';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+import './index.css';
+import Footer from './Footer';
+import EditResto from './EditResto';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar/>
+      <Switch>
+        <Route exact path='/' component={RestoList}/>
+        <Route exact path='/createResto' component={CreateResto}/>
+        <Route exact path='/editResto/:restoId/' component={EditResto}/>
+        <Redirect to='/'/>
+      </Switch><br/><br/>
+      <Footer/>
+    </>
   );
 }
 

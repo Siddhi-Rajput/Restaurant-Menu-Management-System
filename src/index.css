@@ -1,13 +1,167 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Muli',sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  background-color: white !important;
+}
+
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color:#565387 !important;
+}
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_active{
+  font-weight: bold;
+}
+
+.navbar a:hover{
+  color:#3498db !important
+}
+
+@media(max-width:991px){
+  .navbar-brand{
+    font-size:1.5rem !important;
+  }
+
+  .menu_active{
+    font-weight:bold;
+    color: #3498db !important;
+    border-bottom:none;
+  }
+
+  .main-div{
+    margin-left:90px !important;
+  }
+
+}
+
+#header{
+  width:100%;
+  height:80vh;
+  margin-top:30px;
+}
+
+#header h1{
+  margin:0 0 10px 0;
+  font-size:40px;
+  font-weight:700px;
+  color:black;
+}
+
+#header h5{
+  color: #484848;
+  font-size:20px;
+}
+
+#header .brand-name{
+  color:#3498db;
+}
+
+.table-row-main-div{
+  height:10vh;
+  width:81vw;
+  transition:1s;
+}
+
+.table-row-child-div{
+  height:50px;
+  box-shadow: 0 3px 4px lightgray;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.table-header{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.table-main-header{
+  margin-top:110px;
+}
+
+.main-div{
+  margin-left:130px;
+}
+
+.button-blue:hover{
+  color:#3498db ;
+}
+
+.header-img{
+  width:120px;
+  height:50px;
+  position:relative;
+}
+
+.header-img .animate{
+  position:absolute;
+  margin-top:-20px;
+  animation: logo 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes logo{
+  0%{
+    top:0%
+  }
+  100%{
+    top:40%;
+  }
+}
+
+@keyframes logo{
+  0%{
+    top:0%
+  }
+  100%{
+    top:40%;
+  }
+}
+
+.logo-header{
+  margin-left:120px;
+  font-size: 36px !important;
+  font-weight: 900;
+}
+
+input, textarea{
+  color:black !important;
+}
+
+.common-header-css{
+  margin-top:70px;
+}
+
+.button-red:hover{
+  color: red;
+}
+
+.button-green:hover{
+  color:#20bf6b;
+}
+
+ul{
+  margin-top:10px;
+}
+
+ul li{
+  position:absloute;
+  margin-top:10px;
+  margin-left:-10px;
+}
+
+.button-menu{
+  margin-left:950px;
+  margin-top:-48px;
 }
