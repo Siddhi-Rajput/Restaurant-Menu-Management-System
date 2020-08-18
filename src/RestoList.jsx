@@ -12,27 +12,37 @@ const RestoList = () =>{
         <div className="main-div">
             <div className='table-row-main-div table-main-header'>
                 <div className="container-fluid table-row-child-div table-header">
-                    <div>Name</div>
-                    <div>Phone Number</div>
-                    <div >Email ID</div>
-                    <div>City</div>
-                    <div >Actions</div>
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td>Phone Number</td>
+                            <td >Email ID</td>
+                            <td>City</td>
+                            <td >Actions</td>
+                        </tr>
+                    </table>
+                    
                 </div>
             </div> 
             {RestoData.map((val,index)=>{
                 return ( 
                     <div className='table-row-main-div' key={index}>
                         <div className="container-fluid table-row-child-div">
-                            <div style={{marginLeft:"20px"}}>{val.name}</div>
-                            <div style={{marginLeft:"40px"}}>{val.phone}</div>
-                            <div style={{marginLeft:"50px"}}>{val.email}</div>
-                            <div style={{marginLeft:"10px"}}>{val.city}</div>
-                            <div  style={{marginRight:"-10px"}}>
-                            <NavLink exact  to={`/editResto/${index}/`}>
-                                <Button className='button-blue'><EditIcon/></Button>
-                            </NavLink>
-                                <Button><Preview data={val}/></Button>
-                            </div>
+                            <table>
+                                <tr>
+                                    <td >{val.name}</td>
+                                    <td >{val.phone}</td>
+                                    <td >{val.email}</td>
+                                    <td >{val.city}</td>
+                                    <td >
+                                        <NavLink exact  to={`/editResto/${index}/`}>
+                                            <Button className='button-blue'><EditIcon/></Button>
+                                        </NavLink>
+                                            <Button><Preview data={val}/></Button>
+                                    </td>
+                                </tr>
+                            </table>
+                            
                         </div>
                     </div> 
                 )
