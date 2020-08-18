@@ -70,7 +70,7 @@
 
 .table-row-main-div{
   height:10vh;
-  width:81vw;
+  width:80vw;
   transition:1s;
 }
 
@@ -165,3 +165,12 @@ ul li{
   margin-left:950px;
   margin-top:-48px;
 }
+
+td{
+  width:20vw;
+}
+
+  table td{
+    text-align: center; 
+    vertical-align: middle;
+  }
