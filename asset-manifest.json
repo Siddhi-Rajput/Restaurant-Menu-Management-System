@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Restaurant-Menu-Management-System/static/css/main.58f310c1.chunk.css",
+    "main.js": "/Restaurant-Menu-Management-System/static/js/main.a90e389f.chunk.js",
+    "main.js.map": "/Restaurant-Menu-Management-System/static/js/main.a90e389f.chunk.js.map",
+    "runtime-main.js": "/Restaurant-Menu-Management-System/static/js/runtime-main.80f13e4c.js",
+    "runtime-main.js.map": "/Restaurant-Menu-Management-System/static/js/runtime-main.80f13e4c.js.map",
+    "static/css/2.75c4ecca.chunk.css": "/Restaurant-Menu-Management-System/static/css/2.75c4ecca.chunk.css",
+    "static/js/2.15cb6406.chunk.js": "/Restaurant-Menu-Management-System/static/js/2.15cb6406.chunk.js",
+    "static/js/2.15cb6406.chunk.js.map": "/Restaurant-Menu-Management-System/static/js/2.15cb6406.chunk.js.map",
+    "index.html": "/Restaurant-Menu-Management-System/index.html",
+    "precache-manifest.90949823e74ad2b39bc400383fea5261.js": "/Restaurant-Menu-Management-System/precache-manifest.90949823e74ad2b39bc400383fea5261.js",
+    "service-worker.js": "/Restaurant-Menu-Management-System/service-worker.js",
+    "static/css/2.75c4ecca.chunk.css.map": "/Restaurant-Menu-Management-System/static/css/2.75c4ecca.chunk.css.map",
+    "static/css/main.58f310c1.chunk.css.map": "/Restaurant-Menu-Management-System/static/css/main.58f310c1.chunk.css.map",
+    "static/js/2.15cb6406.chunk.js.LICENSE.txt": "/Restaurant-Menu-Management-System/static/js/2.15cb6406.chunk.js.LICENSE.txt",
+    "static/media/food2.jpg": "/Restaurant-Menu-Management-System/static/media/food2.ea0b3892.jpg",
+    "static/media/logo.svg": "/Restaurant-Menu-Management-System/static/media/logo.9c349ff5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80f13e4c.js",
+    "static/css/2.75c4ecca.chunk.css",
+    "static/js/2.15cb6406.chunk.js",
+    "static/css/main.58f310c1.chunk.css",
+    "static/js/main.a90e389f.chunk.js"
+  ]
+}
