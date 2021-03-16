@@ -33,3 +33,5 @@ This application developed under this assignment has following features:
 4. Restaurant Preview
    1. This screen shows all the available information regarding a restaurant.
    2. This information includes all the details shown in the ‘Add/Edit Restaurant’ screen and the menu.
+   
+HEROKU LINK : https://resto-management.herokuapp.com
